@@ -1,0 +1,22 @@
+Algoritmo papasFritas
+	definir ingreseCondicionesDelEnvaseOptimo Como Entero;
+	definir contenidoDelEnvaseOptimo Como Entero
+	
+	ingreseCondicionesDelEnvaseOptimo = 1;
+	contenidoDelEnvaseOptimo = 3;
+	
+	escribir "ingrese 1 para condiciones de envase optimo"
+	leer ingreseCondicionesDelEnvaseOptimo
+	escribir "ingrese 3  condiciones de envase optimo"
+	leer contenidoDelEnvaseOptimo;
+	
+	
+	Si ( ingreseCondicionesDelEnvaseOptimo y contenidoDelEnvaseOptimo ) Entonces
+		escribir "seguir la producci�n"
+	SiNo
+		escribir "parar todo!" 
+	Fin Si
+	
+	
+	
+FinAlgoritmo
